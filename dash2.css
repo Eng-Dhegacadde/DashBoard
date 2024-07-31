@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-color: #444;
+}
+.dash{
+    background-color: blueviolet;
+    width: 210px;
+    height: 610px;
+    /* margin-top: 20px; */
+    position: relative;
+    padding: 10px;
+}
+.dash p{
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.dash .gees{
+    background-color: #444;
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 0px;
+    /* text-align: center; */
+}
+.dash h1 span{
+    color: red;
+}
+.dash h1{
+    color: #fff;
+    margin-left: 20px;
+}
+.wrapper{
+    position: absolute;
+    top: 0%;
+    left: 18%;
+    width: 1060px;
+    color: #fff;
+    height: 610px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 80px;
+  
+}
+
+.left{
+    margin-top: -1%;
+}
+.left i{
+    font-size: 20px;
+    margin-left: -39%;
+  
+}
+.left p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.right{
+    margin-left: 290px;
+    margin-top: -1%;
+}
+.right img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: -35%;
+}
+.right h2{
+    font-size: 18px;
+    margin-left: 90%;
+   margin-top: -40%;
+   color: #fff;
+}
+.right p{
+    margin-left: 87%;
+    color: #f4f4f4;
+    margin-top: -35%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: blueviolet;
+
+}
+.dhacdhac{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+.dhacdhac .left2 h2{
+    color: #fff;
+    font-size: 24px;
+}
+.dhacdhac .left2 p{
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.dhacdhac .right2 i{
+    font-size: 30px;
+}
+.small{
+    width: 200px;
+    background-color: blueviolet;
+    margin-right: 20px;
+
+}
+.small span{
+    float: left;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: red;
+}
+.big{
+    background-color: blueviolet;
+
+
+}
+.big span{
+    float: left;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: red;
+}
+.small button{
+    background-color: #fff;
+    color: red;
+    padding: 4px;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 62px;
+}
+.big button{
+    color: red;
+    padding: 4px;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 570px;
+}
+.small .class{
+  text-align: center;
+  border: 5px solid red;
+  font-size: 40px;
+  color: #000;
+background-color: #fff;
+border-radius: 50%;
+padding: 40px;
+margin-top: 30px;
+}
+.botton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.company{
+    margin-top: 20px;
+}
+.company ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 20px;
+    text-transform: capitalize;
+}
